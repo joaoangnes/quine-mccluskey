@@ -17,16 +17,17 @@ Os passos envolvidos no método de Quine McCluskey são os seguintes:
 
 No final do processo, o projeto devolverá o circuito mínimo ao utilizador.
 
-Check-List
-[x] - Receber o array de unsigned char e percorrer os valores;
-[x] - Criar uma função para converter um valor unsigned char e retornar seu binário;
-[x] - Criar uma função para contar numero de bits 1 de um valor unsigned char;
-[x] - Verificar qual estrutura de dados utilizar para armazenar esses agrupamentos (Lista Encadeada);
-[x] - Criar uma função que recebe um array de valores e agrupa eles pela sua quantidade de bits 1;
-[x] - Criar uma função para realizar o diferimento entre dois valores unsigned char e verificar se eles diferem de apenas 1 bit, lembrando que tem que ser o mesmo. Deve ser considerado também sua mascara que irá retornar qual é o bit insignificante para o diferimento;
-   [x] - Quando realizar o diferimento, terá que retornar também uma máscara de bit insignificante;
-   [x] - Caso ele realmente passe pelos filtros, marcar os valores dos dois valores como cobertos na lista;
-[x] - Criar uma função para verificar os valores repetidos dentro de sua lista, caso obtenha retire um deles e continue o processo;
-[x] - Criar função para realizar a verificar na tabela final onde irá realizar a verificação das entradas que não foram cobertas ainda, para retonar seu circuito minimo;
-   [x] - Varrer a lista final encontrada e criar uma matriz com os valores de combinações encontrados;
-[x] - Retornar no final o seu circuito minimo para o usuário;
+## Check-List
+
+- [x] - Receber o array de unsigned char e percorrer os valores;
+- [x] - Criar uma função para converter um valor unsigned char e retornar seu binário;
+- [x] - Criar uma função para contar numero de bits 1 de um valor unsigned char;
+- [x] - Verificar qual estrutura de dados utilizar para armazenar esses agrupamentos (Lista Encadeada);
+- [x] - Criar uma função que recebe um array de valores e agrupa eles pela sua quantidade de bits 1;
+- [x] - Criar uma função para realizar o diferimento entre dois valores unsigned char e verificar se eles diferem de apenas 1 bit, lembrando que tem que ser o mesmo. Deve ser considerado também sua mascara que irá retornar qual é o bit insignificante para o diferimento;
+- [x] - Quando realizar o diferimento, terá que retornar também uma máscara de bit insignificante;
+- [x] - Caso ele realmente passe pelos filtros, marcar os valores dos dois valores como cobertos na lista;
+- [x] - Criar uma função para verificar os valores repetidos dentro de sua lista, caso obtenha retire um deles e continue o processo;
+- [x] - Criar função para realizar a verificar na tabela final onde irá realizar a verificação das entradas que não foram cobertas ainda, para retonar seu circuito minimo;
+- [x] - Varrer a lista final encontrada e criar uma matriz com os valores de combinações encontrados;
+- [x] - Retornar no final o seu circuito minimo para o usuário;
