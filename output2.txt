@@ -1,0 +1,72 @@
+Generating minimal circuit for 6 elements
+
+Grupos Lista Inicial:
+Grupo de 0 bit(s):
+  Valor: 0 Mask: 255 Combinação: 0
+Grupo de 1 bit(s):
+  Valor: 1 Mask: 255 Combinação: 1
+  Valor: 2 Mask: 255 Combinação: 2
+Grupo de 2 bit(s):
+  Valor: 5 Mask: 255 Combinação: 5
+  Valor: 6 Mask: 255 Combinação: 6
+Grupo de 3 bit(s):
+  Valor: 7 Mask: 255 Combinação: 7
+
+
+Grupos Lista Final:
+Grupo de 0 bit(s):
+  Valor: 0 Mask: 1 Combinação: 0, 1
+  Valor: 0 Mask: 2 Combinação: 0, 2
+Grupo de 1 bit(s):
+  Valor: 1 Mask: 4 Combinação: 1, 5
+  Valor: 2 Mask: 4 Combinação: 2, 6
+Grupo de 2 bit(s):
+  Valor: 5 Mask: 2 Combinação: 5, 7
+  Valor: 6 Mask: 1 Combinação: 6, 7
+
+Matriz de Cobertura (6 linhas x 6 colunas):
+1 1 0 0 0 0 
+1 0 1 0 0 0 
+0 1 0 1 0 0 
+0 0 1 0 1 0 
+0 0 0 1 0 1 
+0 0 0 0 1 1 
+
+Implicantes primos essenciais: 
+Minitermo na coluna 0 não está coberto.
+Implicante primo na linha 0 cobre 2 minitermos não cobertos.
+Implicante primo na linha 1 cobre 2 minitermos não cobertos.
+Implicante primo na linha 2 cobre 2 minitermos não cobertos.
+Implicante primo na linha 3 cobre 2 minitermos não cobertos.
+Implicante primo na linha 4 cobre 2 minitermos não cobertos.
+Implicante primo na linha 5 cobre 2 minitermos não cobertos.
+Implicante primo na linha 0 foi selecionado como essencial.
+
+Minitermo na coluna 2 não está coberto.
+Implicante primo na linha 1 cobre 1 minitermos não cobertos.
+Implicante primo na linha 2 cobre 1 minitermos não cobertos.
+Implicante primo na linha 3 cobre 2 minitermos não cobertos.
+Implicante primo na linha 4 cobre 2 minitermos não cobertos.
+Implicante primo na linha 5 cobre 2 minitermos não cobertos.
+Implicante primo na linha 3 foi selecionado como essencial.
+
+Minitermo na coluna 3 não está coberto.
+Implicante primo na linha 1 cobre 0 minitermos não cobertos.
+Implicante primo na linha 2 cobre 1 minitermos não cobertos.
+Implicante primo na linha 4 cobre 2 minitermos não cobertos.
+Implicante primo na linha 5 cobre 1 minitermos não cobertos.
+Implicante primo na linha 4 foi selecionado como essencial.
+
+
+Informações dos primos implicantes:
+Valor: 0 (000), Máscara: 1 (001)
+Valor: 2 (010), Máscara: 4 (100)
+Valor: 5 (101), Máscara: 2 (010)
+
+C B A 
+0 0 88 
+88 1 0 
+1 88 1 
+
+Circuito final: 
+~C~B + B~A + CA

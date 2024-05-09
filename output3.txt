@@ -1,0 +1,46 @@
+Generating minimal circuit for 5 elements
+
+Grupos Lista Inicial:
+Grupo de 2 bit(s):
+  Valor: 3 Mask: 255 Combinação: 3
+  Valor: 5 Mask: 255 Combinação: 5
+  Valor: 9 Mask: 255 Combinação: 9
+Grupo de 3 bit(s):
+  Valor: 7 Mask: 255 Combinação: 7
+  Valor: 11 Mask: 255 Combinação: 11
+
+
+Grupos Lista Final:
+Grupo de 2 bit(s):
+  Valor: 3 Mask: 4 Combinação: 3, 7
+  Valor: 3 Mask: 8 Combinação: 3, 11
+  Valor: 5 Mask: 2 Combinação: 5, 7
+  Valor: 9 Mask: 2 Combinação: 9, 11
+
+Matriz de Cobertura (4 linhas x 5 colunas):
+1 0 1 0 0 
+1 0 0 0 1 
+0 1 1 0 0 
+0 0 0 1 1 
+
+Implicantes primos essenciais: 
+Linha 2, Coluna 1 
+Linha 3, Coluna 3 
+Minitermo na coluna 0 não está coberto.
+Implicante primo na linha 0 cobre 1 minitermos não cobertos.
+Implicante primo na linha 1 cobre 1 minitermos não cobertos.
+Implicante primo na linha 0 foi selecionado como essencial.
+
+
+Informações dos primos implicantes:
+Valor: 3 (0011), Máscara: 4 (0100)
+Valor: 5 (0101), Máscara: 2 (0010)
+Valor: 9 (1001), Máscara: 2 (0010)
+
+D C B A 
+0 88 1 1 
+0 1 88 1 
+1 0 88 1 
+
+Circuito final: 
+~DBA + ~DCA + D~CA

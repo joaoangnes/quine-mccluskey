@@ -1,0 +1,48 @@
+Generating minimal circuit for 8 elements
+
+Grupos Lista Inicial:
+Grupo de 1 bit(s):
+  Valor: 4 Mask: 255 Combinação: 4
+  Valor: 8 Mask: 255 Combinação: 8
+Grupo de 2 bit(s):
+  Valor: 9 Mask: 255 Combinação: 9
+  Valor: 10 Mask: 255 Combinação: 10
+  Valor: 12 Mask: 255 Combinação: 12
+Grupo de 3 bit(s):
+  Valor: 11 Mask: 255 Combinação: 11
+  Valor: 14 Mask: 255 Combinação: 14
+Grupo de 4 bit(s):
+  Valor: 15 Mask: 255 Combinação: 15
+
+
+Grupos Lista Final:
+Grupo de 1 bit(s):
+  Valor: 4 Mask: 8 Combinação: 4, 12
+  Valor: 8 Mask: 3 Combinação: 8, 9, 10, 11
+  Valor: 8 Mask: 6 Combinação: 8, 10, 12, 14
+Grupo de 2 bit(s):
+  Valor: 10 Mask: 5 Combinação: 10, 11, 14, 15
+
+Matriz de Cobertura (4 linhas x 8 colunas):
+1 0 0 0 0 1 0 0 
+0 1 1 1 1 0 0 0 
+0 1 0 1 0 1 1 0 
+0 0 0 1 1 0 1 1 
+
+Implicantes primos essenciais: 
+Linha 0, Coluna 0 
+Linha 1, Coluna 2 
+Linha 3, Coluna 7 
+
+Informações dos primos implicantes:
+Valor: 4 (0100), Máscara: 8 (1000)
+Valor: 8 (1000), Máscara: 3 (0011)
+Valor: 10 (1010), Máscara: 5 (0101)
+
+D C B A 
+88 1 0 0 
+1 0 88 88 
+1 88 1 88 
+
+Circuito final: 
+C~B~A + D~C + DB
